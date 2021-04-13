@@ -1,0 +1,17 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+
+    public enum EventName
+    {
+        PlatformTouchEvent,
+        DamageTakenEvent,
+        GameStartedEvent,
+        GameOverEvent,
+        PointsAddEvent,
+        BoostPlatformTouched,
+        ReturnToMainMenuEvent
+    }
